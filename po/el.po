@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Claws Mail 2.4.0\n"
 "Report-Msgid-Bugs-To: paul@claws-mail.org\n"
-"POT-Creation-Date: 2014-06-13 03:15+0400\n"
+"POT-Creation-Date: 2014-06-13 15:28+0400\n"
 "PO-Revision-Date: 2006-07-26 01:02+0300\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
@@ -44,6 +44,140 @@ msgstr ""
 
 #: ../claws-mail.desktop.in.h:2
 msgid "Lightweight and Fast GTK+ based Mail Client"
+msgstr ""
+
+#: ../src/plugins/archive/claws-mail-archive.metainfo.xml.in.h:1
+msgid "Allows to make tars or zips of old folders"
+msgstr ""
+
+#: ../src/plugins/spam_report/claws-mail-spam_report.metainfo.xml.in.h:1
+msgid "Reports spam to various places"
+msgstr ""
+
+#: ../src/plugins/notification/claws-mail-notification.metainfo.xml.in.h:1
+msgid "Provides various ways to notify the user of new and unread email"
+msgstr ""
+
+#: ../src/plugins/bogofilter/claws-mail-bogofilter.metainfo.xml.in.h:1
+msgid ""
+"Enables the scanning of incoming mail received from a POP, IMAP, or LOCAL "
+"account using Bogofilter"
+msgstr ""
+
+#: ../src/plugins/geolocation/claws-mail-geolocation.metainfo.xml.in.h:1
+msgid "Provides GeoLocation functionality"
+msgstr ""
+
+#: ../src/plugins/pgpinline/claws-mail-pgpinline.metainfo.xml.in.h:1
+msgid "Handles PGP/Inline signed and/or encrypted mails"
+msgstr ""
+
+#: ../src/plugins/gdata/claws-mail-gdata.metainfo.xml.in.h:1
+msgid "Provides an interface to Google services"
+msgstr ""
+
+#: ../src/plugins/fancy/claws-mail-fancy.metainfo.xml.in.h:1
+msgid "Renders HTML e-mail using the WebKit library"
+msgstr ""
+
+#: ../src/plugins/clamd/claws-mail-clamd.metainfo.xml.in.h:1
+msgid ""
+"Scans all messages that are received from an IMAP, LOCAL or POP account "
+"using clamd (Clam AV)"
+msgstr ""
+
+#: ../src/plugins/address_keeper/claws-mail-address_keeper.metainfo.xml.in.h:1
+#, fuzzy
+msgid ""
+"Allows saving outgoing addresses to a designated folder in the address book"
+msgstr ""
+"Πατήστε αυτό το κουμπί για να επιλέξετε φάκελο για την αποθήκευση της "
+"ανεπιθύμητης αλληλογραφίας"
+
+#: ../src/plugins/pdf_viewer/claws-mail-pdf_viewer.metainfo.xml.in.h:1
+msgid ""
+"Enables the viewing of PDF and PostScript attachments using the Poppler "
+"library and GhostScript"
+msgstr ""
+
+#: ../src/plugins/attachwarner/claws-mail-attachwarner.metainfo.xml.in.h:1
+msgid ""
+"Warns when a message mentioning an attachment in the message body without "
+"attaching any files"
+msgstr ""
+
+#: ../src/plugins/bsfilter/claws-mail-bsfilter.metainfo.xml.in.h:1
+msgid ""
+"Check all messages that are received from an IMAP, LOCAL or POP account for "
+"spam using Bsfilter"
+msgstr ""
+
+#: ../src/plugins/mailmbox/claws-mail-mailmbox.metainfo.xml.in.h:1
+msgid "Direct support for mailboxes in mbox format"
+msgstr ""
+
+#: ../src/plugins/att_remover/claws-mail-att_remover.metainfo.xml.in.h:1
+msgid "Lets you remove attachments from emails"
+msgstr ""
+
+#: ../src/plugins/smime/claws-mail-smime.metainfo.xml.in.h:1
+msgid "Handles S/MIME signed and/or encrypted mails"
+msgstr ""
+
+#: ../src/plugins/tnef_parse/claws-mail-tnef_parse.metainfo.xml.in.h:1
+msgid "Enables reading application/ms-tnef attachments"
+msgstr ""
+
+#: ../src/plugins/rssyl/claws-mail-rssyl.metainfo.xml.in.h:1
+msgid "Read your RSS favourite newsfeeds"
+msgstr ""
+
+#: ../src/plugins/acpi_notifier/claws-mail-acpi_notifier.metainfo.xml.in.h:1
+msgid "Enables mail notification via LEDs on some laptops"
+msgstr ""
+
+#: ../src/plugins/perl/claws-mail-perl.metainfo.xml.in.h:1
+msgid "Allowing the use of full Perl power in email filters"
+msgstr ""
+
+#: ../src/plugins/pgpmime/claws-mail-pgpmime.metainfo.xml.in.h:1
+msgid "Handles PGP/MIME signed and/or encrypted mails"
+msgstr ""
+
+#: ../src/plugins/libravatar/claws-mail-libravatar.metainfo.xml.in.h:1
+msgid ""
+"Displays libravatar/gravatar profiles images or a dynamically generated or "
+"predefined alternative"
+msgstr ""
+
+#: ../src/plugins/vcalendar/claws-mail-vcalendar.metainfo.xml.in.h:1
+msgid ""
+"Enables vCalendar message handling and handles webCal subscriptions. "
+"Provides a calendar import"
+msgstr ""
+
+#: ../src/plugins/newmail/claws-mail-newmail.metainfo.xml.in.h:1
+msgid ""
+"Writes a msg header summary to a log file on arrival of new mail after "
+"sorting"
+msgstr ""
+
+#: ../src/plugins/spamassassin/claws-mail-spamassasin.metainfo.xml.in.h:1
+msgid ""
+"Enables the scanning of incoming mail received from a POP, IMAP, or LOCAL "
+"account using SpamAssassin"
+msgstr ""
+
+#: ../src/plugins/fetchinfo/claws-mail-fetchinfo.metainfo.xml.in.h:1
+msgid ""
+"Inserts headers containing: UIDL, Claws' account name, POP server, user ID "
+"and retrieval time"
+msgstr ""
+
+#: ../src/plugins/python/claws-mail-python.metainfo.xml.in.h:1
+msgid ""
+"Offers a Python scripting. Code can be entered into an embedded Python "
+"console or stored"
 msgstr ""
 
 #: ../src/account.c:392
@@ -1117,10 +1251,6 @@ msgstr "_Εμφάνιση του αρχείου καταγραφών"
 #: ../src/alertpanel.c:347
 msgid "Show this message next time"
 msgstr "Να εμφανιστεί αυτό το μήνυμα την επόμενη φορά"
-
-#: ../src/avatars.c:97
-msgid "Internal avatars rendering already initialized"
-msgstr ""
 
 #: ../src/avatars.c:102
 msgid "Failed to register avatars internal rendering hook"
@@ -6996,22 +7126,8 @@ msgstr "Εργάζεστε χωρίς σύνδεση. Θέλετε να το π�
 msgid "On_ly once"
 msgstr "Μόνο μια _φορά"
 
-#: ../src/ldapupdate.c:189
-#, c-format
-msgid "ldapsvr_retrieve_item_person->Unknown status: %d"
-msgstr ""
-
-#: ../src/ldapupdate.c:472
-msgid "ldapsvr_update_book: Could not clean cache\n"
-msgstr ""
-
 #: ../src/ldapupdate.c:1056
 msgid "Some SN"
-msgstr ""
-
-#: ../src/ldapupdate.c:1440
-#, c-format
-msgid "ldapsvr_update_book->Unknown status: %s\n"
 msgstr ""
 
 #: ../src/ldif.c:776

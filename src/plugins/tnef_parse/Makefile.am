@@ -2,10 +2,11 @@
 # This file is part of Claws Mail package.
 # See COPYING file for license details.
 
-appdata_files = claws-mail-tnef_parse.metainfo.xml
+appdata_in_files = claws-mail-tnef_parse.metainfo.xml.in
 appdatadir = $(datadir)/appdata
-appdata_DATA = $(appdata_files)
-EXTRA_DIST = claws.def plugin.def version.rc $(appdata_files)
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+@INTLTOOL_XML_RULE@
+EXTRA_DIST = claws.def plugin.def version.rc $(appdata_in_files)
 
 if OS_WIN32
 
